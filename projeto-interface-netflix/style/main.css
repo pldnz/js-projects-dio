@@ -100,8 +100,24 @@ header nav a:hover {
   height: 380px;
   width: 100%;
   display: block;
+  border: solid 5px var(--preto);
+}
+
+.box-item:hover {
+  border: none;
+  transition: 3s ease all;
+  cursor: pointer;
 }
 
 .carrosel {
   margin-top: 5px;
+}
+
+.container h3 {
+  margin-bottom: 15px;
+}
+
+.h3 {
+  margin-top: -25px !important;
+  margin-bottom: 0 !important;
 }
