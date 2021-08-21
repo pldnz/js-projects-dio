@@ -10,7 +10,7 @@ export const Restaurant = styled.div`
   background-color: #fff;
   :hover {
     background-color: ${(props) => props.theme.colors.background};
-    border-left: ${(props) => props.theme.colors.primary};
+    border-left: ${(props) => props.theme.colors.primary} 5px solid;
   }
 `;
 
@@ -34,4 +34,12 @@ export const Address = styled.span`
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 10px;
+  margin-top: 10px;
+`;
+
+export const RestaurantPhoto = styled.img`
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radiux: 6px;
 `;
